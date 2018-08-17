@@ -1,0 +1,29 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "solidity.compileUsingRemoteVersion": "latest",
+    "solidity.soliumRules": {
+        "array-declarations": true,
+        "blank-lines": false,
+        "camelcase": true,
+        "deprecated-suicide": false,
+        "double-quotes": true,
+        "imports-on-top": true,
+        "indentation": false,
+        "lbrace": true,
+        "lparen": false,
+        "mixedcase": true,
+        "no-empty-blocks": true,
+        "no-unused-vars": true,
+        "no-with": true,
+        "operator-whitespace": true,
+        "pragma-on-top": true,
+        "uppercase": false,
+        "variable-declarations": true,
+        "whitespace": true
+    },
+    "editor.rulers": [
+        80,
+        125
+    ],
+    "eslint.enable": true
+}

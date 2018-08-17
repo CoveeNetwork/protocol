@@ -1,0 +1,27 @@
+{
+    "plugins": ["plugins/markdown"],
+    "recurseDepth": 10,
+    "source": {
+        "include": [
+            "test/contracts/covee/AbortTeamFormation.js",
+            "test/contracts/covee/Apply.js",
+            "test/contracts/covee/Covee.js",
+            "test/contracts/covee/CoveeNoClient.js",
+            "test/contracts/covee/DefineProject.js",
+            "test/contracts/covee/PayoutCoveeFee.js",
+            "test/contracts/covee/PayoutStakes.js",
+            "test/contracts/covee/ProjectInvalidClaimMoneyBack.js",
+            "test/contracts/covee/ProjectValidClaimMoneyBack.js",
+            "test/contracts/covee/ReviewAsInitiator.js",
+            "test/contracts/covee/StartApplicationPeriod.js",
+            "test/contracts/covee/SubmitFractionOutcomeOfMilestone.js",
+            "test/contracts/token/CoveeToken.js"
+            "test/contracts/token/TokenVestingFactory.js"
+        ]
+    },
+    "opts": {
+        "encoding": "utf8",
+        "destination": "./docs/jsdoc/",
+        "recurse": true
+    }
+}

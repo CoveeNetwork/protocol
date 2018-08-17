@@ -1,0 +1,54 @@
+# This file is part of the Covee Network protocol (smart contracts).
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+charset = utf-8
+
+# Get rid of whitespace to avoid diffs with a bunch of EOL changes
+trim_trailing_whitespace = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+
+# bower.json, package.json or .travis.yml
+[{{package,bower}.json,.travis.yml}]
+indent_style = space
+indent_size = 2
+
+[{*.js,*.jsx}]
+indent_style = space
+indent_size = 4
+
+[*.sass]
+indent_style = space
+indent_size = 2
+
+# YAML-Files
+[*.yaml, *.yml]
+indent_style = space
+indent_size = 2
+
+[*.sol]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = false
